@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95e8be52-ccd0-4b75-9b8a-cc000edbce62" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lap01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +38,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/OOP_Lap/IT3103.732874.2023.1.20215284.TranNhatMinh/Lap01&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/OOP_Lap/IT3103.732874.2023.1.20215284.TranNhatMinh/Lab02&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -49,7 +46,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.daysOfMonth">
+  <component name="RunManager" selected="Application.ShowTwoNumber">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array" />
       <module name="Lap01" />
@@ -57,8 +54,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InputFromKeyboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InputFromKeyboard" />
+    <configuration name="ShowTwoNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ShowTwoNumber" />
       <module name="Lap01" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,11 +84,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShowTwoNumber" />
         <item itemvalue="Application.daysOfMonth" />
         <item itemvalue="Application.Array" />
         <item itemvalue="Application.addTwoMatrics" />
         <item itemvalue="Application.triangleStar" />
-        <item itemvalue="Application.InputFromKeyboard" />
       </list>
     </recent_temporary>
   </component>
@@ -105,6 +102,10 @@
       <updated>1697436752776</updated>
       <workItem from="1697436753607" duration="4035000" />
       <workItem from="1697446478864" duration="3853000" />
+      <workItem from="1697462012006" duration="387000" />
+      <workItem from="1698487732723" duration="33000" />
+      <workItem from="1698487882194" duration="34000" />
+      <workItem from="1698487967295" duration="32000" />
     </task>
     <servers />
   </component>

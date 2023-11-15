@@ -100,6 +100,59 @@ public class Cart {
             System.out.println("The cart is full"); // In ra thông báo nếu giỏ hàng đã đầy.
         }
     }
+
+    // 6.1 print Cart
+    public void printCart() {
+        System.out.println("***********************CART***********************");
+        System.out.println("Ordered Items:\n");
+
+        for (int i = 0; i < qtyOrdered; i++) {
+            DigitalVideoDisc dvd = itemsOrdered[i];
+            System.out.println((i + 1) + ". DVD - " + dvd.getTitle() + " - " + dvd.getCategory() + " - "
+                    + dvd.getDirector() + " - " + dvd.getLength() + ": " + dvd.getCost() + " $");
+        }
+
+        System.out.println("\nTotal cost: " + totalCost() + " $\n");
+        System.out.println("***************************************************");
+    }
+
+
+    // Search by ID
+    public void searchById(int id) {
+        System.out.println("Searching for DVD with ID: " + id);
+
+        for (int i = 0; i < qtyOrdered; i++) {
+            DigitalVideoDisc dvd = itemsOrdered[i];
+            if (dvd != null && dvd.getId() == id) {
+                System.out.println("DVD found:\n" + dvd.getTitle() + " - " + dvd.getCategory() + " - "
+                    + dvd.getDirector() + " - " + dvd.getLength() + ": " + dvd.getCost() + " $");
+                return;
+            }
+        }
+
+        System.out.println("No DVD found with ID: " + id);
+    }
+    
+    //  Search for DVDs by Title
+    public void searchByTitle(String title) {
+        System.out.println("Searching for DVDs with title '" + title + "':\n");
+
+        boolean found = false;
+        for (int i = 0; i < qtyOrdered; i++) {
+            DigitalVideoDisc dvd = itemsOrdered[i];
+            if (dvd != null && dvd.isMatch(title)) {
+                System.out.println("DVD found:\n" + dvd.getTitle() + " - " + dvd.getCategory() + " - "
+                    + dvd.getDirector() + " - " + dvd.getLength() + ": " + dvd.getCost() + " $");
+                found = true;
+            }
+        }
+
+        if (!found) {
+            System.out.println("No DVDs found with title: " + title);
+        }
+    }
+    
+    
 }
 
 
